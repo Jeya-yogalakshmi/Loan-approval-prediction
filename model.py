@@ -8,8 +8,8 @@ import pickle
 warnings.filterwarnings('ignore') 
 
 #Load dataset
-df = pd.read_csv("D:/Loan_prediction_dataset/train_u6lujuX_CVtuZ9i.csv")
-test = pd.read_csv("D:/Loan_prediction_dataset/test_Y3wMUE5_7gLdaTN.csv")
+df = pd.read_csv("train_u6lujuX_CVtuZ9i.csv")
+test = pd.read_csv("test_Y3wMUE5_7gLdaTN.csv")
 
 #preprocessing data
 df['LoanAmount'] = df['LoanAmount'].fillna(df['LoanAmount'].mean())
