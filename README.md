@@ -1,1 +1,1 @@
-# Loan-approval-presiction
+# Loan-approval-prediction
